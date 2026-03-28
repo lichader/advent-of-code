@@ -11,7 +11,7 @@ import (
 
 const LENGTH = 100
 
-func main() {
+func day1() {
 	instructions := parse("./day1_intput.txt")
 	fmt.Printf("Read %v instructions\n", len(instructions))
 	password := decodePt2(50, instructions)
